@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="bitly-verification" content="082aff3e0630"/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <meta content='The Wolf of Wall Street movie website' name='description'>
 	<meta charset="UTF-8">
 	<title>The Wolf of Wall Street</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style-1.css">
 	<link rel="shortcut icon" href="../favicon.ico"> 
-	<link rel="stylesheet" type="text/css" href="css/style-1.css"/>
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        
-
-		<script src="js/modernizr.custom.70736.js"></script>
-		<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
-		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style-1.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+	<script src="js/modernizr.custom.70736.js"></script>
+	<noscript>
+	<link rel="stylesheet" media="screen" type="text/css" href="css/noJS.css"/></noscript>
+	<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
 </head>
 <body>
 	<div class="container-fluid">
@@ -39,9 +41,10 @@
 		<div class="row">
 			<div>
 				<h2>Synopis</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, aspernatur quam consectetur fuga maiores esse, amet error consequatur iusto unde architecto velit ad. Labore, ad rerum voluptate neque eaque deserunt.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, aspernatur quam consectetur fuga maiores esse, amet error consequatur iusto unde architecto velit ad. Labore, ad rerum voluptate neque eaque deserunt.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, aspernatur quam consectetur fuga maiores esse, amet error consequatur iusto unde architecto velit ad. Labore, ad rerum voluptate neque eaque deserunt.</p>
+				<p>In the early 1990s, Jordan Belfort teamed 
+					with his partner Donny Azoff and started brokerage firm Stratford-Oakmont. Their company quickly grows from a staff of 20 to a staff of more than 250 and their status in the trading community and Wall Street grows exponentially. So much that companies file their initial public offerings through them. As their status grows, so do the amount of substances they abuse, and so do their lies. They draw attention like no other, throwing lavish parties for their staff when they hit the jackpot on high trades. That ultimately leads to Belfort featured on the cover of Forbes Magazine, being called "The Wolf Of Wall St.". With the FBI onto Belfort's trading schemes, he devises new ways to cover his tracks and watch his fortune grow. Belfort ultimately comes up with a scheme to stash their cash in a European bank. But with the FBI 
+					watching him like a hawk, how 
+					long will Belfort and Azoff be able to maintain their elaborate wealth and luxurious lifestyles? </p>
 			</div>  <!-- End of Synopsis -->
 
 			<div>
@@ -61,18 +64,27 @@
 		<?php include 'inc/gamma.inc.php';?>
 
 <!-- #################Gamma is the jQuery gamma gallery plugin and html markup Ends here############################ -->			
+			</div> <!-- End of Row -->
 		
+<!-- #################Footer include goes here from inc folder under the name footer.inc.php############################ -->	
+			<?php include 'inc/review.inc.php';?>
 
-		</div> <!-- End of Row -->
-		
+<!-- ####################################Footer php Ends here##################################### -->
 
-		<div class= "footer">
+
+		<div class="row">
+			<div class= "col-xs-12 footer">
 <!-- #################Footer include goes here from inc folder under the name footer.inc.php############################ -->	
 			<?php include 'inc/footer.inc.php';?>
-<!-- #################Footer Ends here############################ -->
-		</div> <!-- Footer div Ends here -->
+
+<!-- ####################################Footer php Ends here##################################### -->
+			</div> <!-- Footer div Ends here -->
+		</div>
 	
+
 	</div><!--  End of Container-fluid -->
+
+
 <!-- ###########################Gamma gallery script goes here########################### -->
 		<?php include 'inc/script.inc.php';?>	
 <!-- ###########################Gamma gallery script Ends here########################### -->
