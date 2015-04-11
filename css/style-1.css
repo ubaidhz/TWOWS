@@ -17,7 +17,53 @@ h1, h2, h3{
 
 }
 /*=========================Navigation Bar styling Ends=========================*/
+<<<<<<< HEAD
+/*=========================Parallax Start here=========================*/
 
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+img{
+	border: 0;
+}
+
+ #intro, #second{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#intro{
+	background:url('../images/firstBG.jpg') 50% 0px no-repeat fixed;
+	color: white;
+	height: 1200px;
+	
+	
+}
+
+#second{
+	background: url('../images/secondBG.jpg') 50% 0 no-repeat fixed;
+	color: white;
+	/*height: 1500px;*/
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#third{
+	background: url('../images/thirdBG.jpg') 50% 0 no-repeat fixed;
+	color: white;
+	/*height: 1750px;*/
+		
+}
+/*=========================Parallax Ends here=========================*/
+=======
+
+>>>>>>> 6f36b560ac0bc9600d7c483dccf340db77a20005
 
 /*=========================Video Responsive=========================*/
 .responsive-video {
@@ -71,3 +117,8 @@ height: 100%;
 }
 /*=========================Reviews styling goes here=========================*/
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 6f36b560ac0bc9600d7c483dccf340db77a20005
